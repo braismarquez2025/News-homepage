@@ -1,0 +1,50 @@
+.header {
+    &_menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 32px;
+
+        @include breakpoint(desktop) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+
+        .logo {
+            width: 44px;
+            height: 28px;
+            cursor: pointer;
+        }
+
+        .boton-menu {
+            cursor: pointer;
+
+            @include breakpoint(desktop) {
+                display: none;
+            }
+        }
+    }
+
+
+    &_nav {
+        display: none;
+
+        @include breakpoint(desktop) {
+            display: flex;
+            gap: 40px;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        li {
+            @include breakpoint(desktop){
+                &:hover {
+                    color: $red-500;
+                }
+            }
+        }
+    }
+}
+
+
