@@ -18,7 +18,7 @@ cerrar_menu.addEventListener("click", () => {
 
 function actualizarClaseTitulo() {
     const titulo = document.querySelector(".main_portada-title");
-    if (window.innerWidth > 768) {
+    if (window.innerWidth > 1024) {
       titulo.classList.remove('text-preset-2');
       titulo.classList.add('text-preset-1');
     } else {

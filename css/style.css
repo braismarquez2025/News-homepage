@@ -97,25 +97,6 @@
 .main_portada {
   margin-bottom: 64px;
 }
-.main_portada .img-principal-mobile {
-  width: 100%;
-  height: 300px;
-  margin-bottom: 24px;
-}
-@media (min-width: 1220px) {
-  .main_portada .img-principal-mobile {
-    display: none;
-  }
-}
-.main_portada .img-principal-desktop {
-  display: none;
-}
-@media (min-width: 1220px) {
-  .main_portada .img-principal-desktop {
-    display: block;
-    width: 730px;
-  }
-}
 .main_portada-title {
   color: #00001A;
   margin-bottom: 24px;
@@ -138,6 +119,34 @@
 .main_portada-button:hover {
   background-color: #00001A;
   color: white;
+}
+
+.img-principal-mobile {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 24px;
+}
+@media (min-width: 768px) {
+  .img-principal-mobile {
+    display: none;
+  }
+}
+
+.img-principal-desktop {
+  display: none;
+}
+@media (min-width: 768px) {
+  .img-principal-desktop {
+    display: block;
+    width: 608px;
+    margin-bottom: 24px;
+  }
+}
+@media (min-width: 1220px) {
+  .img-principal-desktop {
+    display: block;
+    width: 730px;
+  }
 }
 
 .new {
