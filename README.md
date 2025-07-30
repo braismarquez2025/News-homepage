@@ -12,7 +12,7 @@ Esta es una solución al [desafío de News Homepage en Frontend Mentor](https://
 
 
 ## Descripción general
-Proyecto responsive para resolución mobile(375px), tablet(768px) y desktop(1440px). 
+Proyecto responsive para resolución mobile (375px), tablet (768px) y desktop (1440px). 
 
 ### Captura de pantalla
 ![](./images/Frontend-Mentor-News-homepage-07-30-2025_01_26_PM.png)
